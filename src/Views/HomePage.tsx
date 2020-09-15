@@ -1,6 +1,7 @@
 import { Flex, H1, H2, Hr, P } from "@tpr/core";
 import { ArrowButton } from "@tpr/layout";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -14,7 +15,9 @@ const HomePage = () => {
       </P>
       <Hr />
       <Flex cfg={{ justifyContent: "flex-end" }}>
-        <ArrowButton pointsTo="right" iconSide="right" title="Next" />
+        <Link to="/usestate">
+          <ArrowButton pointsTo="right" iconSide="right" title="Next" />
+        </Link>
       </Flex>
     </Flex>
   );
