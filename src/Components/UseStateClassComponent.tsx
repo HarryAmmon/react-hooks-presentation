@@ -49,6 +49,11 @@ export default class UseStateClassComponent extends React.Component<
           <P tag="b">Count value:</P>
           <P>{this.state.count}</P>
           <Button
+            onClick={() => this.setState((previousState) => ({ count: 0 }))}
+          >
+            0
+          </Button>
+          <Button
             onClick={() =>
               this.setState((previousState) => ({
                 count: previousState.count + 1,
