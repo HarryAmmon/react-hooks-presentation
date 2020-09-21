@@ -8,6 +8,7 @@ const UseReducerPage = () => {
   return (
     <Flex cfg={{ flexDirection: "column" }}>
       <H1>useReducer</H1>
+      <Hr />
       <UseReducerFunctionalComponent />
       <Hr />
       <Flex cfg={{ justifyContent: "flex-end" }}>
