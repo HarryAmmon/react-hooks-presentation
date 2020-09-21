@@ -14,6 +14,7 @@ const UseStatePage = () => (
       access and update the state of an object.
     </P>
     <UseStateExample />
+    <Hr />
     <UseStateClassComponent />
     <Hr />
     <Flex cfg={{ justifyContent: "flex-end" }}>

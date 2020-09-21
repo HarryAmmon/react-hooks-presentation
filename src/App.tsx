@@ -7,6 +7,7 @@ import UseStatePage from "./Views/UseStatePage";
 import UseReducerPage from "./Views/UseReducerPage";
 import UseContextPage from "./Views/UseContextPage";
 import HomePage from "./Views/HomePage";
+import UseEffectPage from "./Views/UseEffectPage";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
                   path="/useContext"
                   component={() => <UseContextPage />}
                 />
+                <Route path="/useEffect" component={() => <UseEffectPage />} />
               </Switch>
             </Flex>
           </Flex>

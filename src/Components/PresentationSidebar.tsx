@@ -15,13 +15,18 @@ const PresentationSidebar = () => {
       titlePath={"/"}
       sections={[
         {
-          title: "Hooks examples",
+          title: "State Management",
           order: 1,
           links: [
             { name: "useState", path: "/useState", completed: true },
             { name: "useReducer", path: "/useReducer", completed: true },
             { name: "useContext", path: "/useContext", completed: true },
           ],
+        },
+        {
+          title: "Lifecycle Management",
+          order: 2,
+          links: [{ name: "useEffect", path: "/useEffect", completed: true }],
         },
       ]}
     />

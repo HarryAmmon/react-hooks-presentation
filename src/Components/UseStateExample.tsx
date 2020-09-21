@@ -19,7 +19,7 @@ const UseStateExample = () => {
         </Button>
         <P tag="b">Count value:</P>
         <P>{count.toString()}</P>
-        <Button onClick={() => setCount(0)}>0</Button>
+        <Button onClick={() => setCount(0)}>Reset</Button>
         <Button onClick={() => setCount((prevCount) => prevCount + 1)}>
           +1
         </Button>

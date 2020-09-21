@@ -51,7 +51,7 @@ export default class UseStateClassComponent extends React.Component<
           <Button
             onClick={() => this.setState((previousState) => ({ count: 0 }))}
           >
-            0
+            Reset
           </Button>
           <Button
             onClick={() =>
